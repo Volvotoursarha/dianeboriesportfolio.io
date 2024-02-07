@@ -1,0 +1,54 @@
+body {
+    background-image: url('/images/prothese.png');
+    width: 100%;
+}
+
+.barremenu {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0%;
+}
+
+.logo {
+    height:150px; 
+    margin-left: 20px;
+    }
+
+.corps{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pour centrer horizontalement */
+    height: 100vh; /* Utilisation de la hauteur de la fenêtre pour centrer verticalement */
+
+}
+    .whoareyou{
+        font-family: @import url('/font/Cinzel-VariableFont_wght.ttf');
+        color:#1A4B3C;
+        font-size: 60px;
+        font-weight: lighter;
+        margin: 0%;
+
+    }
+    .propositionmetier{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Arial';
+        font-style: lighter;
+        color:#000000;
+        font-size: 18px;
+        font-weight: lighter;
+        line-height: 0%;
+    }
+    
+    .allproject{
+        margin-top: 20px;
+        font-family: 'Arial';
+        font-style: lighter;
+        color:#1A4B3C;
+        font-size: 14px;
+        font-weight: lighter;
+    }
