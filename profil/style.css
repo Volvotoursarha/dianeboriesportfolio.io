@@ -1,0 +1,165 @@
+@import url('/font/Cinzel-VariableFont_wght.ttf');
+@import url('/font/Montserrat-VariableFont_wght.ttf');
+@import url('/font/static/Montserrat-Thin.ttf');
+@import url('/image/prothese.png');
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url('/font/static/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;}
+
+body {
+    background-image: url('./image/prothese.png'); /* Correction de la syntaxe */
+    width: 100%;
+}
+
+/* Styles pour la page de bienvenue */
+.welcome-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.571); /* Fond semi-transparent */
+    opacity: 1; /* Opacité initiale */
+    transition: opacity 1s ease; /* Transition de fondu */
+    backdrop-filter: blur(10px); /* Applique un flou à l'arrière-plan */
+
+}
+
+.welcome-page:hover {
+    opacity: 0; /* La page de bienvenue devient transparente au survol */
+    
+}
+
+    .corpswelcomepage{ 
+    margin-top: 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+/* Autres styles */
+        .texte1 {
+            margin: 0px;
+            font-family: 'Montserrat Thin';
+            font-variant: thin;
+            font-style: Thin;
+            color:#1A4B3C;
+            font-size: 20px;
+            font-weight: Thin;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .wlc {
+            margin: 0px;
+        }   
+        .texte2 {
+            line-height: 0%;
+            margin:0px;
+            font-family: 'cinzel';
+            color:#1A4B3C;
+            font-size: 150%;
+            font-weight: lighter;
+            margin: 0%;
+        }
+
+        .mp{
+            margin-top:30px;
+            margin-bottom: 25px;;
+        }
+        .texte3{margin: 0px;
+            font-family: 'Montserrat Thin';
+            font-style: Thin;
+            color:#1A4B3C;
+            font-size: 20px;
+            font-weight: Thin;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .namepage1 {margin: 5px;}
+        
+        .ligne-fine {
+        width: 500.02px;
+        border: none; /* Supprime la bordure par défaut */
+        height: 2px; /* Définit la hauteur de la ligne */
+        background-color: #1a4b3c; /* Couleur de la ligne */
+        margin: 0px 0; /* Marge au-dessus et en-dessous de la ligne */
+        }
+
+        .logotrypremierepage{
+        height: 200px;
+        }
+
+
+.imagearriereplan{
+    opacity: 50%;
+    position: absolute;
+    z-index: -4;
+}
+.barremenu {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0%;
+}
+
+.logo {
+    height:150px; 
+    margin-left: 20px;
+    }
+
+.corps{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pour centrer horizontalement */
+    height: 100vh; /* Utilisation de la hauteur de la fenêtre pour centrer verticalement */
+
+}
+    .whoareyou{
+        font-family: 'cinzel';
+        color:#1A4B3C;
+        font-size: 60px;
+        font-weight: lighter;
+        margin: 0%;
+        text-align:center;
+
+    }
+    .Listepropositionmetier{ margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+    .propositionmetier{
+        margin: 0%;
+        font-family: 'Montserrat Extralight', sans-serif;
+        font-weight: 100;
+        color:#000000;
+        font-size: 15px;
+        line-height: 10%;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .propositionmetier:hover {
+        font-family: 'Montserrat Light', sans-serif;
+      }
+    
+    
+        
+    .allproject{
+        margin-top: 20px;
+        font-family: 'Montserrat Thin';
+        font-variant: thin;
+        font-style: Thin;
+        color:#1A4B3C;
+        font-size: 12px;
+        font-weight: Thin;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .allproject:hover {
+        font-family: 'Montserrat Light', sans-serif;
+      }

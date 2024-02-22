@@ -1,0 +1,335 @@
+@import url('/font/Cinzel-VariableFont_wght.ttf');
+@import url('/font/Montserrat-VariableFont_wght.ttf');
+@import url('/font/static/Montserrat-Thin.ttf');
+@import url('/image/prothese.png');
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url('/font/static/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;}
+
+body {
+    background-color:rgb(243, 243, 243);}    
+    
+.headmenu {
+    background-color:rgb(243, 243, 243);
+    box-shadow: 00px 20px 30px rgba(0, 0, 0, 0.1);
+    padding-left: 50px;   
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: auto; /* Espacement égal entre les éléments */
+    }
+
+.classquijesuis{
+    display: flex;
+    justify-content: center;
+    
+}
+.whoiam {
+    background-color:rgba(243, 243, 243, 0);
+    border: none;
+    vertical-align: top;
+     /* Aligne le texte sur le haut du bouton */
+     position:absolute;
+     margin-top: 15px;
+     }
+  
+
+.quijesuis{ 
+    backdrop-filter: blur(10px); /* Applique un flou à l'arrière-plan */
+     background-image: linear-gradient(135deg, #0c411ba1 30%, #021408a1 70%);
+     width: 100%;
+    height: 100%;
+    display: none; /* Cache la div1 initialement */
+    
+}
+
+
+
+    .contentquijesuis{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .contentquijesuis{
+        margin-top: 50px;
+    }
+
+    .photodemoi{
+        position: absolute; /* Position absolue pour la première div superposée */
+        top: 1%; /* Ajustement de la position verticale */
+        left: 20%;
+    }
+        .photoprofil{
+        width: 30%;
+        border-radius: 10%;
+        
+        }
+
+        .texteprofil{
+            margin-top: 2%;
+            background-color: rgba(255, 255, 255, 0.714);
+            backdrop-filter: blur(10px); /* Applique un flou à l'arrière-plan */
+            width: 50%;
+            border-radius: 10%;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            left: 40%; 
+            height: 450px;
+        }
+        .texteprofil p{
+            font-family: 'Montserrat';
+            margin-left: 40%;
+            margin-right:10% ;
+            font-size: 70%;
+        }
+
+.j{font-family: 'Montserrat';
+    font-style: Thin;
+    color:#686868;
+    font-size: 120%;
+    font-weight: Thin;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    flex: 1;
+    }
+.j:hover{
+    color:#000000;
+}
+
+.contact{
+    border: none;
+}
+
+    .contactpage{
+    backdrop-filter: blur(10px); /* Applique un flou à l'arrière-plan */
+    background-color: #1a4b3c78;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    }
+
+    .contentcontactpage{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    }
+
+    .contactme{
+        font-family: 'Montserrat';
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 2%;
+        margin-left: 5%;
+        
+    }
+    
+        .fontcadre{
+            margin-top: 1%;
+            background-color: rgba(255, 255, 255, 0.657);
+            backdrop-filter: blur(5px); /* Applique un flou à l'arrière-plan */
+            width: 70%;
+            border-radius: 10%;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            position: absolute;
+            z-index: -2;
+            height: 70%;
+        }
+        .textecontact p{
+            font-family: 'Montserrat';
+            margin-left: 10%;
+            margin-right:10% ;
+        }
+
+        .souscontent{
+            display: flex;
+            flex-direction: row;
+        }
+
+            #prisecontact {
+                font-family: 'Montserrat';
+                border-radius: 5%;
+                color: #333; 
+                background: #fff;
+                width: 30%;
+                margin: 0 auto; /* Center the form in the div */
+                position:absolute;
+                z-index: 1;
+                margin-left: 5%;
+                height: 120%;
+                 }
+
+            .scribme{
+                font-family: 'Montserrat';
+                color: #1A4B3C;
+                margin-left: 15%;
+            }
+          
+            .form-group {
+                margin-top:15%;
+                margin-bottom: 20px;
+                margin-right: 4%;
+                margin-left:10%; 
+            }
+            
+            .form-group label {
+                display: block; /* Labels above inputs */
+            }
+            
+            .form-group input,
+            .form-group textarea {
+                width: 90%; /* Full width */
+                margin-top: 5px;
+                background: #d6d6d6; /* Slightly lighter than form background */
+                border: none;
+                color: #0c411b; /* Text color */
+                padding-bottom: 10%;
+            }
+            
+            .form-group input::placeholder,
+            .form-group textarea::placeholder {
+                color: #bbb; /* Placeholder text color */
+            }
+
+            .zoneboutonsubmit{
+                display: flex;
+                justify-content: center;
+            }
+            
+            .submit-button {
+                padding: 10px 20px;
+                background: #1A4B3C; /* White background */
+                color: #ffffff; /* Text color for the button */
+                border: none;
+                border-radius: 20px; /* Rounded corners for the button */
+                cursor: pointer; /* Hand cursor on hover */
+                display: block; /* Make the button a block to fill form width */
+                width: 100%;
+                box-sizing: border-box; /* Include padding in width */
+                margin-right: 5%;
+                margin-left: 5%;
+            }
+            
+            .submit-button:hover {
+                background: #f7f7f7; /* Slightly different background on hover */
+            }
+    .réseaux{
+        position:absolute;
+        z-index: 3;
+        display:flex;
+        flex-direction: column;
+        font-size: 24px; /* Taille des icônes */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Pour afficher les icônes côte à côte */
+        margin-left: 60%;
+        width: 20%;
+        overflow: hidden; /* Pour cacher le débordement de l'image */
+    margin-left: 70%;
+    margin-top: 10%;
+      }
+
+     .réseaux img {
+        height: 90%;
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+        
+     }    
+     .réseaux img:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 25%;}
+
+
+      .social-icons li {
+        margin-right: 10px; /* Espace entre les icônes */
+      }
+      
+      .social-icons a {
+        text-decoration: none; /* Enlève le soulignement des liens */
+        color: inherit; /* Les icônes auront la couleur du texte par défaut */
+      }
+.corpsproject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+            
+     }
+          
+    
+.case {
+        position: relative;
+    height: 300px;
+    width: 550px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: #686868;
+    overflow: hidden; /* Pour cacher le débordement de l'image */
+}
+
+
+.caseune {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Pour couvrir toute la zone de l'image */
+}
+
+.hoverable {
+    display: none;
+    
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Montserrat Extralight', sans-serif;
+    text-transform: uppercase;
+}
+
+.case:hover .hoverable {
+    display: block;
+    backdrop-filter: blur(10px);
+    background-color: #1a4b3c78;
+    position: absolute; /* Position absolue par rapport à la div case */
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hoverable.un{
+    display: flex;}
+
+.zonedefin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.btnretourhaut{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: Thin;
+    color:#686868;
+    font-size: 120%;
+}
+
+.btnretourhaut:hover{
+        color:#000000;
+        text-decoration: underline;
+}
+
+
+
